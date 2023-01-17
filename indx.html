@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/09b1690c17.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/litera/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Rick and Morty API Project</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+      <div class="container">
+        <a href="#" class="navbar-brand text-dark">Rick and Morty API Finder</a>
+      </div>
+    </nav>
+    <div class="container searchContainer">
+      <div class="search card card-body">
+        <h1>Search Rick and Morty Characters</h1>
+        <p class="lead">Enter a Rick and Morty character</p>
+        <input
+          type="text"
+          id="searchUser"
+          class="form-control"
+          placeholder="Character name..."
+        />
+        <button type="button" class="btn btn-primary">submit</button>
+      </div>
+      <br />
+    </div>
+    <div
+      class="profile container d-flex justify-content-center flex-wrap align-self-stretch"
+    ></div>
+
+    <div class="wrapper">
+      <div id="toast">
+        <div class="container-1">
+          <i class="fas fa-check-square"></i>
+        </div>
+        <div class="container-2">
+          <p>Error</p>
+          <p>Enter a character name.</p>
+        </div>
+        <button id="close">&times;</button>
+      </div>
+    </div>
+  </body>
+</html>
