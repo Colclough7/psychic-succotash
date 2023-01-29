@@ -3,6 +3,7 @@ const btn = document.querySelector('[type="button"]');
 const profile = document.querySelector(".profile");
 const toast = document.querySelector("#toast");
 const toastClose = document.querySelector("#close");
+//setTimeout x
 let x;
 
 btn.addEventListener("click", () => {
